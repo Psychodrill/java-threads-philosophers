@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Integer count =2;
+        Integer count =5;
         ArrayList<Philosopher> philArrList = new ArrayList<Philosopher>();
         for(int i=0; i<count; i++){
             philArrList.add(new Philosopher(i));
